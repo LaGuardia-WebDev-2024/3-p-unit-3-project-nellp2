@@ -10,6 +10,7 @@ Select ONE Additional Feature to Add
 [ no ] Feature 2 - Include at least two Internal links
 [ no ] Feature 3 - Include a list in a tabl
 [ no ] Feature 4 - Include at least two background images in a table
+[ yes ] Project 5 Feature: Gradient background
 -->
 
 <!DOCTYPE html>
@@ -19,10 +20,9 @@ Select ONE Additional Feature to Add
     <meta charset="utf-8" />
     <style>
       body {
-        background-color: rgb(237, 182, 138);
+/*         background-color: rgb(237, 182, 138); */
         font-family: "Brush Script MT";
-        background-image: url("https://wallpapers.com/images/hd/halloween-aesthetic-pc-7h6wpke5qma5r0xl.jpg");
-      }
+        background-image: linear-gradient(to bottom right, orange, grey, black); }
       h2 {
         color: rgb(174, 68, 90);
         background-color: rgb(102, 37, 73);
@@ -46,8 +46,16 @@ Select ONE Additional Feature to Add
 
       .text {
         color: rgb(174, 68, 90);
+        width: 95%;
+        height: 90px;
+        overflow-y: auto;
         font-size: 40px;
+        margin: 10px;
+        border: 7px solid black;
+        padding: 2px;
       }
+      
+      
       
       table, th, td{
         border: 2px solid pink;
@@ -145,5 +153,11 @@ within the wire to form the wings.</td>
     <p>
       <em>Source: <a href="https://so-sew-easy.com/my-sewing-tutorials/#google_vignette">Sewing tutorial website 2</a></em>
     </p>
+    
+    <div>
+      <p>
+        <span> Halloween is a lot of fun and comes with a lot of joy!</span>
+      </p>
+    </div>
   </body>
 </html>
